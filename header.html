@@ -1,0 +1,77 @@
+<!-- Projeto site/app UniBem - 2016
+Autor: Diego de Souza Abreu
+Arquivo: blog_page.html
+Observações: Template - Header - Material design -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Import meta  -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+
+    
+<title>UniBem</title>
+
+<!-- Import CSS  -->
+<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    
+<!-- Favicon -->   
+<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"/> 
+    
+<!--icones --> 
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- // -->  
+</head>
+       
+<main>
+    <body class="grey lighten-4">
+    
+        <header>
+<!-- cabecalho -->       
+<!-- Desktop code  -->
+            
+            <div class="page-flexbox-wrapper">
+            <nav class="white" role="navigation">
+            <nav class="white" role="navigation">
+           <div class="nav-wrapper container"><a id="logo-container" href="index.php" class="brand-logo"> <img src="img/logo.png" width="170" height="70" alt="logo center-align" ></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#" class="red-text">Sobre</a></li>
+                <li><a href="#" class="red-text">Blog</a></li>
+            </ul>
+                
+<!-- Mobile code  -->    
+
+            <ul id="nav-mobile" class="side-nav">
+                <li><nav><div class="nav-wrapper red lighten-2">
+                <form name="searchform" method="post" action="#">
+                <div class="input-field">
+                <input name="buscar" type="search">
+                <label for="search">
+                <i class="material-icons">search</i>
+                </label>
+                    </div></form>
+                  </nav></li>
+                        <li><a href="#"><i class="large material-icons">store</i>Home</a></li>
+                        <li><a href="#"><i class="large material-icons">info</i>Sobre</a></li>
+                        <li><a href="#"><i class="large material-icons">reorder</i>Blog</a></li>
+                        
+            </ul>
+                
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons red-text">menu</i></a>
+                </div>
+                </nav>
+
+        </header>
+<!-- Fim - código cabeçalho -->
+            
+<!-- Java Script - Materialize -->
+                
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>                
+
+<script src="js/init.js"></script>

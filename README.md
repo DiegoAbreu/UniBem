@@ -1,2 +1,4 @@
-# UniBem
- Nesse repositório estão os principais elementos estruturais que compõe o site unibem.net 
+# Estrutura do site
+Nesse repositório estão os principais elementos estruturais desenvolvido para o site unibem.net.
+
+- Blog page: Página responsiva para posts feita com material design;
